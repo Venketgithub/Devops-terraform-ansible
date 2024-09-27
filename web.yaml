@@ -6,7 +6,7 @@
         name: httpd
         state: installed
     - name: configure
-      shell: "echo Hello guys , Venket this side  !! > /var/www/html/index.html"
+      shell: "echo Hello guys , Venket this side after SG update !! > /var/www/html/index.html"
     - name: start service
       service:
         name: httpd
